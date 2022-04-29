@@ -8,10 +8,9 @@
   },
   "plugins": {
     "release-it-yarn-workspaces": {
-      "workspaces": ["packages/*", "packages/config/*"]
+      "workspaces": ["packages/*", "packages/config/*"],
+      "publish": true
     }
   },
-  "npm": {
-    "publish": true
-  }
+  "npm": false
 }
