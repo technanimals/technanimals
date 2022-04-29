@@ -4,12 +4,14 @@
   },
   "github": {
     "release": true,
+    "skipChecks": true,
     "tagName": "v${version}"
   },
   "plugins": {
     "release-it-yarn-workspaces": {
       "workspaces": ["packages/*", "packages/config/*"],
-      "publish": true
+      "publish": true,
+      "skipChecks": true
     }
   },
   "npm": false
