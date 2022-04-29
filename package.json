@@ -17,7 +17,7 @@
     "lint-stage": "lint-staged",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "prepare": "husky install",
-    "release": "release-it"
+    "release": "release-it --ci"
   },
   "devDependencies": {
     "@storybook/react": "~6.4.22",
