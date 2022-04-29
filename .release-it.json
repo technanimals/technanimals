@@ -3,12 +3,11 @@
     "commitMessage": ":bookmark: chore: release v${version}"
   },
   "github": {
-    "release": true
+    "release": true,
+    "tagName": "v${version}"
   },
-  "plugins": {
-    "release-it-yarn-workspaces": {
-      "workspaces": ["packages/*", "packages/config/*"]
-    }
-  },
-  "npm": false
+  "plugins": {},
+  "npm": {
+    "publish": true
+  }
 }
