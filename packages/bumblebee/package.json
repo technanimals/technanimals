@@ -10,7 +10,18 @@
     "registry": "https://npm.pkg.github.com"
   },
   "license": "MIT",
+  "scripts": {
+    "typescript": "tsc --noEmit",
+    "build": "bob build",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "fuse.js": "~6.5.3",
+    "styled-system": "~5.1.5"
+  },
   "devDependencies": {
+    "@emotion/native": "~11.0.0",
+    "@emotion/react": "~11.8.2",
     "@technanimals/eslint-plugin": "*",
     "@technanimals/jest": "*",
     "@technanimals/prettier": "*",
@@ -19,7 +30,9 @@
     "@types/react-dom": "^17.0.11"
   },
   "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
+    "@emotion/native": "^11.0.0",
+    "@emotion/react": "^11.8.2",
+    "react": "^17",
+    "react-native": "^0.66"
   }
 }
