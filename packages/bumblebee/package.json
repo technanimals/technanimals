@@ -1,6 +1,6 @@
 {
   "name": "@technanimals/bumblebee",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "module": "dist/module/index.js",
   "react-native": "src/index.ts",
   "main": "src/index.ts",
@@ -22,10 +22,10 @@
   "devDependencies": {
     "@emotion/native": "~11.0.0",
     "@emotion/react": "~11.8.2",
-    "@technanimals/eslint-plugin": "0.0.1",
-    "@technanimals/jest": "0.0.1",
-    "@technanimals/prettier": "0.0.1",
-    "@technanimals/typescript": "0.0.1",
+    "@technanimals/eslint-plugin": "0.0.2",
+    "@technanimals/jest": "0.0.2",
+    "@technanimals/prettier": "0.0.2",
+    "@technanimals/typescript": "0.0.2",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11"
   },
