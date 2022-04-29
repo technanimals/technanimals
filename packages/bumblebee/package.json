@@ -5,6 +5,11 @@
   "react-native": "src/index.ts",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "directory": "packages/bumblebee",
+    "url": "https://github.com/technanimals/transformers"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://npm.pkg.github.com"

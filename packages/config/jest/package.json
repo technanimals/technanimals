@@ -5,6 +5,11 @@
     "access": "public",
     "registry": "https://npm.pkg.github.com"
   },
+  "repository": {
+    "type": "git",
+    "directory": "packages/config/jest",
+    "url": "https://github.com/technanimals/transformers"
+  },
   "files": [
     "expo",
     "node",
