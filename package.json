@@ -1,10 +1,10 @@
 {
-  "name": "turborepo-basic-shared",
+  "name": "@technanimals/transformers",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
-    "apps/*",
-    "packages/*"
+    "packages/*",
+    "packages/config/*"
   ],
   "scripts": {
     "build": "turbo run build",

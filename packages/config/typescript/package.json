@@ -1,0 +1,14 @@
+{
+  "name": "@technanimals/typescript",
+  "version": "0.0.0",
+  "private": true,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "base.json",
+    "nextjs.json",
+    "react-library.json"
+  ]
+}

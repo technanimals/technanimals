@@ -1,0 +1,14 @@
+{
+  "name": "@technanimals/jest",
+  "version": "0.0.0",
+  "private": true,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "expo",
+    "node",
+    "root"
+  ]
+}
