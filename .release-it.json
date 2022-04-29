@@ -6,7 +6,11 @@
     "release": true,
     "tagName": "v${version}"
   },
-  "plugins": {},
+  "plugins": {
+    "release-it-yarn-workspaces": {
+      "workspaces": ["packages/*", "packages/config/*"]
+    }
+  },
   "npm": {
     "publish": true
   }
