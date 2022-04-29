@@ -1,6 +1,6 @@
 {
   "name": "@technanimals/jest",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publishConfig": {
     "access": "public",
     "registry": "https://npm.pkg.github.com"
