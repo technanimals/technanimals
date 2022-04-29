@@ -1,10 +1,10 @@
 {
-  "name": "@technanimals/transformers",
+  "name": "@technanimals/technanimals",
   "version": "0.0.5",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/technanimals/transformers"
+    "url": "https://github.com/technanimals/technanimals"
   },
   "workspaces": [
     "packages/*",

@@ -9,7 +9,7 @@
   "repository": {
     "type": "git",
     "directory": "packages/config/prettier",
-    "url": "https://github.com/technanimals/transformers"
+    "url": "https://github.com/technanimals/technanimals"
   },
   "dependencies": {
     "@trivago/prettier-plugin-sort-imports": "~3.2.0"

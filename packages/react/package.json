@@ -1,5 +1,5 @@
 {
-  "name": "@technanimals/bumblebee",
+  "name": "@technanimals/react",
   "version": "0.0.5",
   "module": "dist/module/index.js",
   "react-native": "src/index.ts",
@@ -7,8 +7,8 @@
   "types": "src/index.ts",
   "repository": {
     "type": "git",
-    "directory": "packages/bumblebee",
-    "url": "https://github.com/technanimals/transformers"
+    "directory": "packages/react",
+    "url": "https://github.com/technanimals/technanimals"
   },
   "publishConfig": {
     "access": "public",

@@ -8,7 +8,7 @@
   "repository": {
     "type": "git",
     "directory": "packages/config/typescript",
-    "url": "https://github.com/technanimals/transformers"
+    "url": "https://github.com/technanimals/technanimals"
   },
   "files": [
     "base.json",

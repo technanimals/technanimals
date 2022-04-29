@@ -8,7 +8,7 @@
   "repository": {
     "type": "git",
     "directory": "packages/config/jest",
-    "url": "https://github.com/technanimals/transformers"
+    "url": "https://github.com/technanimals/technanimals"
   },
   "files": [
     "expo",
