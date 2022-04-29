@@ -1,0 +1,13 @@
+{
+  "git": {
+    "commitMessage": ":bookmark: chore: release v${version}"
+  },
+  "github": {
+    "release": true
+  },
+  "plugins": {
+    "release-it-yarn-workspaces": {
+      "workspaces": ["packages/*", "packages/config/*"]
+    }
+  }
+}

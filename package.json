@@ -10,11 +10,14 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "release": "release-it"
   },
   "devDependencies": {
     "prettier": "latest",
     "react-native-builder-bob": "~0.18.2",
+    "release-it": "~14.14.2",
+    "release-it-yarn-workspaces": "~2.0.1",
     "turbo": "latest"
   },
   "engines": {
