@@ -8,7 +8,7 @@ export default {
   component: Box,
 } as ComponentMeta<typeof Box>;
 
-const Template: ComponentStory<typeof Box> = (_args) => {
+const Template: ComponentStory<typeof Box> = () => {
   return <Box backgroundColor="blue" flex={1} display="flex" />;
 };
 

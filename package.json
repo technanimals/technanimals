@@ -13,16 +13,20 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
-    "lint": "turbo run lint",
+    "lint": "eslint packages/*/src/**/*.{ts,tsx}",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "release": "release-it"
   },
   "devDependencies": {
+    "@storybook/react": "~6.4.22",
+    "@technanimals/eslint-plugin": "*",
+    "jest": "~28.0.3",
     "prettier": "latest",
     "react-native-builder-bob": "~0.18.2",
     "release-it": "~14.14.2",
     "release-it-yarn-workspaces": "~2.0.1",
-    "turbo": "latest"
+    "turbo": "latest",
+    "typescript": "~4.6.4"
   },
   "engines": {
     "npm": ">=7.0.0",

@@ -13,21 +13,29 @@
     "url": "https://github.com/technanimals/transformers"
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "~5.18.0",
     "@typescript-eslint/parser": "~5.18.0",
+    "eslint": "*",
+    "eslint-config-airbnb": "~18.1.0",
+    "eslint-config-airbnb-base": "~15.0.0",
+    "eslint-config-airbnb-typescript": "~7.2.1",
     "eslint-config-next": "^12.0.8",
     "eslint-config-prettier": "~6.11.0",
-    "eslint-plugin-prettier": "*",
-    "eslint-plugin-react": "7.28.0",
-    "prettier": "*",
-    "eslint-config-airbnb": "~18.1.0",
-    "eslint-config-airbnb-typescript": "~7.2.1",
     "eslint-plugin-dependencies": "~2.4.0",
+    "eslint-plugin-import": "~2.26.0",
+    "eslint-plugin-jest": "~26.1.5",
     "eslint-plugin-jsdoc": "~25.4.3",
     "eslint-plugin-jsx-a11y": "~6.2.3",
+    "eslint-plugin-prettier": "*",
+    "eslint-plugin-react": "7.28.0",
     "eslint-plugin-react-hooks": "~4.0.3",
-    "@typescript-eslint/eslint-plugin": "~5.18.0",
-    "eslint": "*",
-    "eslint-config-airbnb-base": "~15.0.0",
-    "eslint-plugin-import": "~2.26.0"
+    "jest": "*",
+    "prettier": "*"
+  },
+  "devDependencies": {
+    "typescript": "*"
+  },
+  "peerDependencies": {
+    "typescript": "*"
   }
 }

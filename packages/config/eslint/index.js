@@ -1,6 +1,7 @@
 module.exports = {
   configs: {
-    base: require('./base'),
-    next: require('./next'),
+    base: require('./src/base'),
+    next: require('./src/next'),
+    recommended: require('./src/recommended'),
   },
 };
