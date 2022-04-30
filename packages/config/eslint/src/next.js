@@ -1,30 +1,23 @@
-const path = require("path");
-
-const root = process.cwd();
-
-const project = path.resolve(root, "tsconfig.json");
-
 module.exports = {
   env: {
     es6: true,
   },
-  extends: ["./base"],
+  extends: ['./base'],
   globals: {
-    Atomics: "readonly",
-    SharedArrayBuffer: "readonly",
-    __DEV__: "readonly",
+    Atomics: 'readonly',
+    SharedArrayBuffer: 'readonly',
+    __DEV__: 'readonly',
     google: true,
   },
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
     },
     ecmaVersion: 2018,
-    project,
-    sourceType: "module",
+    sourceType: 'module',
   },
   rules: {
-    "class-methods-use-this": "off",
+    'class-methods-use-this': 'off',
   },
 };

@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 /* eslint-disable import/no-extraneous-dependencies */
 module.exports = {
   globals: {
@@ -13,14 +14,6 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'prettier', 'jest'],
   extends: ['airbnb-base', 'prettier', 'plugin:prettier/recommended', 'plugin:jest/recommended'],
-  overrides: [
-    {
-      files: ['*.ts', '*.tsx'],
-      parserOptions: {
-        project: ['./packages/*/tsconfig.json'],
-      },
-    },
-  ],
   rules: {
     'import/no-extraneous-dependencies': [
       'error',

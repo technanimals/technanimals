@@ -16,9 +16,11 @@
   },
   "license": "MIT",
   "scripts": {
-    "typescript": "tsc --noEmit",
     "build": "bob build",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "test": "jest --verbose --watch",
+    "test:once": "jest --verbose",
+    "typescript": "tsc --noEmit"
   },
   "dependencies": {
     "fuse.js": "~6.5.3",
@@ -31,8 +33,14 @@
     "@technanimals/jest": "0.0.6",
     "@technanimals/prettier": "0.0.6",
     "@technanimals/typescript": "0.0.6",
+    "@testing-library/react": "~13.1.1",
+    "@testing-library/react-hooks": "~8.0.0",
     "@types/react": "^17.0.37",
-    "@types/react-dom": "^17.0.11"
+    "@types/react-dom": "^17.0.11",
+    "@types/react-native": "~0.67.6",
+    "react": "~18.1.0",
+    "react-native": "~0.68.1",
+    "react-test-renderer": "~18.1.0"
   },
   "peerDependencies": {
     "@emotion/native": "^11.0.0",
