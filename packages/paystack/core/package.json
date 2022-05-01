@@ -1,0 +1,29 @@
+{
+  "name": "@technanimals/paystack",
+  "version": "0.0.2",
+  "module": "dist/module/index.js",
+  "react-native": "src/index.ts",
+  "main": "index.ts",
+  "types": "index.ts",
+  "repository": {
+    "type": "git",
+    "directory": "packages/paystack/core",
+    "url": "https://github.com/technanimals/technanimals"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test": "jest --verbose --watch",
+    "test:once": "jest --verbose",
+    "typescript": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@technanimals/paystack-charge": "*",
+    "@technanimals/paystack-client": "*"
+  }
+}

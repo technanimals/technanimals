@@ -1,4 +1,13 @@
 {
-  "cSpell.words": ["linebreak", "nextjs", "sendgrid", "technanimals", "trivago", "valign"],
+  "cSpell.words": [
+    "linebreak",
+    "nextjs",
+    "paystack",
+    "sendgrid",
+    "snakecase",
+    "technanimals",
+    "trivago",
+    "valign"
+  ],
   "editor.tabSize": 2
 }

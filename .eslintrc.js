@@ -5,7 +5,11 @@ module.exports = {
     {
       files: ['*.ts', '*.tsx'],
       parserOptions: {
-        project: ['./packages/*/tsconfig.json'],
+        project: [
+          './packages/*/tsconfig.json',
+          'packages/paystack/*/tsconfig.json',
+          'packages/paystack/core/*/tsconfig.json',
+        ],
       },
     },
   ],

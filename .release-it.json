@@ -9,7 +9,12 @@
   },
   "plugins": {
     "release-it-yarn-workspaces": {
-      "workspaces": ["packages/*", "packages/config/*"],
+      "workspaces": [
+        "packages/*",
+        "packages/config/*",
+        "packages/paystack/*",
+        "packages/paystack/server/*"
+      ],
       "publish": true,
       "skipChecks": true
     }

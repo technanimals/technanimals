@@ -8,7 +8,9 @@
   },
   "workspaces": [
     "packages/*",
-    "packages/config/*"
+    "packages/config/*",
+    "packages/paystack/*",
+    "packages/paystack/core/*"
   ],
   "scripts": {
     "build": "turbo run build",

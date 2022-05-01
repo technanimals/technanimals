@@ -1,0 +1,12 @@
+{
+  "extends": "@technanimals/typescript/base",
+  "include": ["."],
+  "compilerOptions": {
+    "outDir": "dist",
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"]
+    }
+  },
+  "exclude": ["dist", "build", "node_modules"]
+}
