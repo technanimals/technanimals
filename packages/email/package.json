@@ -18,19 +18,12 @@
   "scripts": {
     "build": "bob build",
     "clean": "rm -rf dist",
+    "dev": "ts-node dev.tsx",
     "test": "jest --verbose --watch",
     "test:once": "jest --verbose",
     "typescript": "tsc --noEmit"
   },
-  "peerDependencies": {
-    "react": "^17"
-  },
   "dependencies": {
-    "@emotion/styled": "~11.8.1",
-    "@sendgrid/mail": "~7.6.2",
-    "styled-system": "~5.1.5"
-  },
-  "devDependencies": {
-    "@types/styled-system": "~5.1.15"
+    "@sendgrid/mail": "~7.6.2"
   }
 }
