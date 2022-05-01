@@ -26,6 +26,11 @@
     "react": "^17"
   },
   "dependencies": {
-    "@sendgrid/mail": "~7.6.2"
+    "@emotion/styled": "~11.8.1",
+    "@sendgrid/mail": "~7.6.2",
+    "styled-system": "~5.1.5"
+  },
+  "devDependencies": {
+    "@types/styled-system": "~5.1.15"
   }
 }
