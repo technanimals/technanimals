@@ -3,6 +3,11 @@ import sendGridMailService, { MailService } from '@sendgrid/mail';
 import { EmailClient, SendEmail } from './EmailClient';
 
 export class SendgridClient implements EmailClient {
+  /**
+   *
+   * @param configString
+   * @returns
+   */
   static fromConfigString(configString: string): SendgridClient {
     const config = EmailClient.parseConfigString(configString);
 
@@ -13,11 +18,18 @@ export class SendgridClient implements EmailClient {
   }
 
   public sendEmail: SendEmail;
-  constructor(private readonly mailService: MailService) {
+  /**
+   *
+   * @param mailService
+   */
+  private constructor(private readonly mailService: MailService) {
     this.sendEmail = this.mailService.send.bind(this.mailService);
   }
 }
 
 export interface SendGridConfig {
+  /**
+   *
+   */
   apiKey: string;
 }
