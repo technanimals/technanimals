@@ -1,0 +1,1 @@
+export { PaystackClient } from './client';

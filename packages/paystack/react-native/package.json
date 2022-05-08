@@ -5,10 +5,21 @@
   "react-native": "src/index.ts",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "files": [
+    "android",
+    "src",
+    "ios",
+    "react-native-paystack.podspec"
+  ],
+  "homepage": "https://github.com/technanimals/technanimals",
   "repository": {
     "type": "git",
     "directory": "packages/paystack/react-native",
     "url": "https://github.com/technanimals/technanimals"
+  },
+  "author": {
+    "name": "Lebogang Mabala",
+    "url": "https://github.com/geekmidas"
   },
   "publishConfig": {
     "access": "public",
@@ -21,5 +32,13 @@
     "test": "jest --verbose --watch",
     "test:once": "jest --verbose",
     "typescript": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "~16.9.0",
+    "react-native": "~0.61.5"
   }
 }
