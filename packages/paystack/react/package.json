@@ -1,6 +1,6 @@
 {
-  "name": "@technanimals/react-native-paystack",
-  "version": "0.0.2",
+  "name": "@technanimals/react-paystack",
+  "version": "0.0.0",
   "module": "dist/module/index.js",
   "react-native": "src/index.ts",
   "main": "src/index.ts",
