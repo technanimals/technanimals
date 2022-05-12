@@ -18,7 +18,7 @@ export abstract class EmailClient {
    *
    * @param input - Input needed to send an email
    */
-  abstract sendEmail(input: SendEmailInput): Promise<any>;
+  abstract send(input: SendEmailInput): Promise<any>;
 }
 
 export interface SendEmailInput {

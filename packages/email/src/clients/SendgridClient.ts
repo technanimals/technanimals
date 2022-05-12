@@ -17,13 +17,13 @@ export class SendgridClient implements EmailClient {
     return client;
   }
 
-  public sendEmail: SendEmail;
+  public send: SendEmail;
   /**
    *
    * @param mailService
    */
   private constructor(private readonly mailService: MailService) {
-    this.sendEmail = this.mailService.send.bind(this.mailService);
+    this.send = this.mailService.send.bind(this.mailService);
   }
 }
 
