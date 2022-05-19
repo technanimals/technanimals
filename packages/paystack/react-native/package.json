@@ -38,6 +38,7 @@
     "react-native": ">=0.68.2 <1.0.x"
   },
   "devDependencies": {
+    "@technanimals/builder": "*",
     "react": "17.0.2",
     "react-native": "0.68.2"
   }

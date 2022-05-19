@@ -19,6 +19,7 @@
     "clean": "rm -rf dist",
     "test": "jest --verbose --watch",
     "test:once": "jest --verbose",
+    "lint": "eslint src/**/*.ts",
     "typescript": "tsc --noEmit"
   },
   "dependencies": {

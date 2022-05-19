@@ -20,6 +20,7 @@
     "clean": "rm -rf dist",
     "test": "jest --verbose --watch",
     "test:once": "jest --verbose",
+    "lint": "eslint src/**/*.ts",
     "typescript": "tsc --noEmit"
   },
   "dependencies": {
@@ -29,10 +30,11 @@
   "devDependencies": {
     "@emotion/native": "~11.0.0",
     "@emotion/react": "~11.8.2",
-    "@technanimals/eslint-plugin": "0.0.6",
-    "@technanimals/jest": "0.0.6",
-    "@technanimals/prettier": "0.0.6",
-    "@technanimals/typescript": "0.0.6",
+    "@technanimals/builder": "*",
+    "@technanimals/eslint-plugin": "*",
+    "@technanimals/jest": "*",
+    "@technanimals/prettier": "*",
+    "@technanimals/typescript": "*",
     "@testing-library/react": "~13.1.1",
     "@testing-library/react-hooks": "~8.0.0",
     "@types/react": "^17.0.37",

@@ -3,18 +3,13 @@
     "commitMessage": ":bookmark: chore: release v${version}"
   },
   "github": {
-    "release": true,
+    "release": false,
     "skipChecks": true,
     "tagName": "v${version}"
   },
   "plugins": {
     "release-it-yarn-workspaces": {
-      "workspaces": [
-        "packages/*",
-        "packages/config/*",
-        "packages/paystack/*",
-        "packages/paystack/server/*"
-      ],
+      "workspaces": ["packages/*", "packages/config/*", "packages/paystack/core/*"],
       "publish": true,
       "skipChecks": true
     }

@@ -18,6 +18,7 @@
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist",
+    "lint": "eslint src/**/*.ts",
     "test": "jest --verbose --watch",
     "test:once": "jest --verbose",
     "typescript": "tsc --noEmit"

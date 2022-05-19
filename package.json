@@ -15,7 +15,7 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
-    "lint": "eslint packages/*/src/**/*.{ts,tsx}",
+    "lint": "turbo run lint",
     "lint-stage": "lint-staged",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "prepare": "husky install",

@@ -1,8 +1,9 @@
 {
   "$schema": "https://turborepo.org/schema.json",
   "pipeline": {
+    "bootstrap": {},
     "build": {
-      "dependsOn": ["^build"],
+      "dependsOn": ["^build", "bootstrap"],
       "outputs": ["dist/**", "build/**"]
     },
     "test": {
@@ -10,6 +11,12 @@
     },
     "test:once": {
       "dependsOn": ["^build"]
+    },
+    "typescript": {
+      "dependsOn": ["^build"]
+    },
+    "lint": {
+      "dependsOn": ["^build", "typescript"]
     },
     "dev": {
       "cache": false

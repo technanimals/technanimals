@@ -19,6 +19,7 @@
     "build": "bob build",
     "clean": "rm -rf dist",
     "dev": "ts-node dev.tsx",
+    "lint": "eslint src/**/*.ts",
     "test": "jest --verbose --watch",
     "test:once": "jest --verbose",
     "typescript": "tsc --noEmit"

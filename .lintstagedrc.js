@@ -1,4 +1,4 @@
 module.exports = {
-  '*.{ts,tsx,graphql}': ['yarn lint', 'yarn format'],
+  '*.{ts,tsx,js}': ['yarn eslint -c .eslintrc.js', 'yarn format'],
   '*.{json,css}': ['yarn format'],
 };
