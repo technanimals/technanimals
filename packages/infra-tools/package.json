@@ -1,0 +1,36 @@
+{
+  "name": "@technanimals/infra-tools",
+  "version": "0.0.0",
+  "main": "dist/commonjs/index.js",
+  "types": "dist/typescript/index.d.ts",
+  "module": "dist/module/index.js",
+  "repository": {
+    "type": "git",
+    "directory": "packages/infra-tools",
+    "url": "https://github.com/technanimals/technanimals"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "bob build",
+    "clean": "rm -rf dist",
+    "test": "jest --verbose --watch",
+    "test:once": "jest --verbose",
+    "typescript": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@technanimals/utils": "*"
+  },
+  "devDependencies": {
+    "@technanimals/builder": "*",
+    "@serverless-stack/cli": "1.1.1",
+    "@serverless-stack/resources": "1.1.1"
+  },
+  "peerDependencies": {
+    "@serverless-stack/cli": ">=1.1.1",
+    "@serverless-stack/resources": ">=1.1.1"
+  }
+}
