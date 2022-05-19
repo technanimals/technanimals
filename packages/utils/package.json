@@ -1,0 +1,36 @@
+{
+  "name": "@technanimals/utils",
+  "version": "0.0.0",
+  "main": "dist/commonjs/index.js",
+  "types": "src/index.ts",
+  "module": "dist/module/index.js",
+  "repository": {
+    "type": "git",
+    "directory": "packages/utils",
+    "url": "https://github.com/technanimals/technanimals"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "bob build",
+    "clean": "rm -rf dist",
+    "test": "jest --verbose --watch",
+    "test:once": "jest --verbose",
+    "lint": "eslint src/**/*.ts",
+    "typescript": "tsc --noEmit"
+  },
+  "dependencies": {
+    "lodash.camelcase": "~4.3.0",
+    "lodash.kebabcase": "~4.1.1",
+    "lodash.startcase": "~4.4.0"
+  },
+  "devDependencies": {
+    "@technanimals/builder": "*",
+    "@types/lodash.camelcase": "~4.3.7",
+    "@types/lodash.kebabcase": "~4.1.7",
+    "@types/lodash.startcase": "~4.4.7"
+  }
+}
