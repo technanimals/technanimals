@@ -1,7 +1,2 @@
-dist
-ecs/
-node_modules
-apps/partners/src/schema/index.ts
-apps/api/src/schema/graphql.ts
-apps/api/src/models/index.ts
-apps/partners/src/app-config.ts
+**/node_modules
+**/dist
