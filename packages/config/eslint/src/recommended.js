@@ -24,6 +24,7 @@ module.exports = {
           '**/*.spec.tsx',
           '**/*.d.ts',
           '**/*.eslintrc.js',
+          '**/bob.config.js',
         ],
       },
     ],
