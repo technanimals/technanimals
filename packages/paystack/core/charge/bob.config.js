@@ -1,5 +1,1 @@
-module.exports = {
-  source: 'src',
-  output: 'dist',
-  targets: ['module'],
-};
+module.exports = require('@technanimals/builder');
