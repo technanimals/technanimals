@@ -1,0 +1,33 @@
+{
+  "name": "@technanimals/paystack-charge",
+  "version": "0.0.0",
+  "module": "dist/module/index.js",
+  "react-native": "src/index.ts",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "directory": "packages/paystack/core",
+    "url": "https://github.com/technanimals/technanimals"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "bob build",
+    "clean": "rm -rf dist",
+    "test": "jest --verbose --watch",
+    "test:once": "jest --verbose",
+    "typescript": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@technanimals/paystack-client": "*",
+    "lodash.snakecase": "~4.1.1"
+  },
+  "devDependencies": {
+    "@types/lodash.snakecase": "~4.1.7",
+    "@technanimals/builder": "*"
+  }
+}
