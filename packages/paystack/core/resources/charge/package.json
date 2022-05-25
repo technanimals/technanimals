@@ -7,7 +7,7 @@
   "types": "src/index.ts",
   "repository": {
     "type": "git",
-    "directory": "packages/paystack/core",
+    "directory": "packages/paystack/core/resources/charge",
     "url": "https://github.com/technanimals/technanimals"
   },
   "publishConfig": {

@@ -10,7 +10,8 @@
     "packages/*",
     "packages/config/*",
     "packages/paystack/*",
-    "packages/paystack/core/*"
+    "packages/paystack/core/*",
+    "packages/paystack/core/resources/*"
   ],
   "scripts": {
     "build": "turbo run build",

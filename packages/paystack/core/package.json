@@ -16,6 +16,7 @@
   },
   "license": "MIT",
   "scripts": {
+    "bootstrap": "ts-node -r tsconfig-paths/register build.ts",
     "build": "tsc",
     "clean": "rm -rf dist",
     "lint": "eslint **/*.ts",
@@ -26,5 +27,8 @@
   "dependencies": {
     "@technanimals/paystack-charge": "*",
     "@technanimals/paystack-client": "*"
+  },
+  "devDependencies": {
+    "prettier": "~2.6.2"
   }
 }
