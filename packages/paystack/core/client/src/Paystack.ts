@@ -44,10 +44,10 @@ interface CustomField {
 export interface PaystackMetadata {
   custom_fields: CustomField[];
 }
-
+export type Amount = number | string;
 export interface Payment {
   /** */
-  amount: number;
+  amount: Amount;
   /** */
   email: string;
   /** */
@@ -65,4 +65,9 @@ export interface PageParams {
   page: number;
   from: Date;
   to: Date;
+}
+
+export enum TransactionStatus {
+  ABANDONED = 'abandoned',
+  SUCCESS = 'success',
 }

@@ -29,24 +29,18 @@ async function getResources() {
 
 async function build() {
   const resources = await getResources();
-  const imports: string[] = [
-    `import { ConfiguredClient, AuthService } from '@technanimals/paystack-client';`,
-  ];
+  const imports: string[] = [`import {  AuthService } from '@technanimals/paystack-client';`];
   const output = resources.map(({ importStatement, name }) => {
     imports.push(importStatement);
 
     return `
-    ${name}: new ConfiguredClient(
-      '${name}',
-      ${name}.configuration,
-      authService
-    ).getClient<${name}.Client>(),
+    ${name}: ${name}.createClient(authService),
     `;
   }, '');
 
   const importData = imports.join('\n');
 
-  const body = output.join('\n');
+  const body = output.join('');
 
   const text = `
     ${importData}
