@@ -28,6 +28,7 @@
     "@storybook/react": "~6.4.22",
     "@technanimals/eslint-plugin": "*",
     "@types/jest": "~27.4.1",
+    "@types/uuid": "~8.3.4",
     "eslint": "~8.14.0",
     "graphql": "~16.4.0",
     "graphql-tag": "~2.12.6",
