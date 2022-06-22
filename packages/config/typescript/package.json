@@ -1,6 +1,6 @@
 {
   "name": "@technanimals/typescript",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "publishConfig": {
     "access": "public",
     "registry": "https://npm.pkg.github.com"
