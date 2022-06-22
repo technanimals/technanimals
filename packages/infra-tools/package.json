@@ -1,6 +1,6 @@
 {
   "name": "@technanimals/infra-tools",
-  "version": "0.0.0",
+  "version": "0.0.7",
   "main": "dist/commonjs/index.js",
   "types": "dist/typescript/index.d.ts",
   "module": "dist/module/index.js",
@@ -23,10 +23,10 @@
     "typescript": "tsc --noEmit"
   },
   "dependencies": {
-    "@technanimals/utils": "*"
+    "@technanimals/utils": "0.0.7"
   },
   "devDependencies": {
-    "@technanimals/builder": "*",
+    "@technanimals/builder": "0.0.7",
     "@serverless-stack/cli": "1.1.1",
     "@serverless-stack/resources": "1.1.1"
   },

@@ -1,6 +1,6 @@
 {
   "name": "@technanimals/email",
-  "version": "0.0.0",
+  "version": "0.0.7",
   "module": "dist/module/index.js",
   "react-native": "src/index.ts",
   "main": "src/index.ts",

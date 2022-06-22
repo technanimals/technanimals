@@ -1,6 +1,6 @@
 {
   "name": "@technanimals/react-native-paystack",
-  "version": "0.0.0",
+  "version": "0.0.7",
   "module": "dist/module/index.js",
   "react-native": "src/index.ts",
   "main": "src/index.ts",
@@ -38,7 +38,7 @@
     "react-native": ">=0.68.2 <1.0.x"
   },
   "devDependencies": {
-    "@technanimals/builder": "*",
+    "@technanimals/builder": "0.0.7",
     "react": "17.0.2",
     "react-native": "0.68.2"
   }

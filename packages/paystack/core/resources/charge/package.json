@@ -1,6 +1,6 @@
 {
   "name": "@technanimals/paystack-charge",
-  "version": "0.0.0",
+  "version": "0.0.7",
   "module": "dist/module/index.js",
   "react-native": "src/index.ts",
   "main": "src/index.ts",
@@ -23,11 +23,11 @@
     "typescript": "tsc --noEmit"
   },
   "dependencies": {
-    "@technanimals/paystack-client": "*",
+    "@technanimals/paystack-client": "0.0.7",
     "lodash.snakecase": "~4.1.1"
   },
   "devDependencies": {
     "@types/lodash.snakecase": "~4.1.7",
-    "@technanimals/builder": "*"
+    "@technanimals/builder": "0.0.7"
   }
 }
