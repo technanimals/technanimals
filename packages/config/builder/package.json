@@ -1,6 +1,6 @@
 {
   "name": "@technanimals/builder",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "index.js",
   "publishConfig": {
     "access": "public",

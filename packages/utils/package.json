@@ -1,6 +1,6 @@
 {
   "name": "@technanimals/utils",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "dist/commonjs/index.js",
   "types": "src/index.ts",
   "module": "dist/module/index.js",
@@ -28,7 +28,7 @@
     "lodash.startcase": "~4.4.0"
   },
   "devDependencies": {
-    "@technanimals/builder": "0.0.7",
+    "@technanimals/builder": "0.0.8",
     "@types/lodash.camelcase": "~4.3.7",
     "@types/lodash.kebabcase": "~4.1.7",
     "@types/lodash.startcase": "~4.4.7"

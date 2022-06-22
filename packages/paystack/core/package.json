@@ -1,6 +1,6 @@
 {
   "name": "@technanimals/paystackv2",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "module": "dist/module/index.js",
   "react-native": "src/index.ts",
   "main": "index.ts",
@@ -25,9 +25,9 @@
     "typescript": "tsc --noEmit"
   },
   "dependencies": {
-    "@technanimals/paystack-charge": "0.0.7",
-    "@technanimals/paystack-client": "0.0.7",
-    "@technanimals/paystack-transaction": "0.0.7"
+    "@technanimals/paystack-charge": "0.0.8",
+    "@technanimals/paystack-client": "0.0.8",
+    "@technanimals/paystack-transaction": "0.0.8"
   },
   "devDependencies": {
     "prettier": "~2.6.2"
